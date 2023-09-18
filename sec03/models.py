@@ -9,4 +9,7 @@ class Curso(BaseModel):
     horas: int
 
 
-
+cursos = [
+    Curso(titulo = "Programção", aulas= 112, horas= 50),
+    Curso(titulo = "Lógica", aulas = 100, horas = 30),
+]
